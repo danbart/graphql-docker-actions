@@ -31,7 +31,7 @@ jobs:
 
     - name: Push Docker Image
       run: |
-        docker push danbart/docker-graphql:1.1.1 .
+        docker push danbart/docker-graphql:1.1.1
 
         
     # - name: Build the Docker image
